@@ -2,15 +2,15 @@ package com.example.newspaper.beans;
 
 import java.time.LocalDateTime;
 
-public class Commnent {
+public class Cmt {
     private int comArtID, comUID, comID;
     private  String comm;
     private LocalDateTime comDate;
 
-    public Commnent() {
+    public Cmt() {
     }
 
-    public Commnent(int comArtID, int comUID, int comID, String comm, LocalDateTime comDate) {
+    public Cmt(int comArtID, int comUID, int comID, String comm, LocalDateTime comDate) {
         this.comArtID = comArtID;
         this.comUID = comUID;
         this.comID = comID;

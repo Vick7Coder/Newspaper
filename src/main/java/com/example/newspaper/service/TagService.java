@@ -16,6 +16,16 @@ public class TagService {
         }
     }
 
+    public static List<Tag> findByTagId(int tag_id) {
+        final String query = "select * from tags where tag_id = :tag_id";
+        try (Connection con = DbUtils.getConnection()) {
+            return con.createQuery(query)
+                    .addParameter("tag_id", tag_id)
+                    .executeAndFetch(Tag.class);
+        }
+    }
+
+
     public static Tag findById(int id) {
         final String query = "select * from tags where tag_id = :tag_id";
         try (Connection con = DbUtils.getConnection()) {
