@@ -3,7 +3,6 @@ package com.example.newspaper.service;
 import com.example.newspaper.beans.TagHasArticles;
 import com.example.newspaper.utils.DbUtils;
 import org.sql2o.Connection;
-import sun.security.krb5.internal.ccache.Tag;
 
 import java.util.List;
 
