@@ -1,8 +1,10 @@
 package com.example.newspaper.controllers;
 
-import com.ute.newsproject.beans.Tag;
-import com.ute.newsproject.service.TagService;
-import com.ute.newsproject.utils.ServletUtils;
+
+
+import com.example.newspaper.beans.Tag;
+import com.example.newspaper.service.TagService;
+import com.example.newspaper.utils.ServletUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

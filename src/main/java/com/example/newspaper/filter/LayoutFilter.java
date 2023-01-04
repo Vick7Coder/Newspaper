@@ -1,8 +1,8 @@
 package com.example.newspaper.filter;
 
 
-import com.ute.newsproject.service.TagService;
-import com.ute.newsproject.beans.Tag;
+import com.example.newspaper.beans.Tag;
+import com.example.newspaper.service.TagService;
 
 
 import javax.servlet.*;

@@ -1,7 +1,6 @@
 package com.example.newspaper.filter;
 
-import com.ute.newsproject.beans.User;
-import com.ute.newsproject.beans.User;
+import com.example.newspaper.beans.User;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;

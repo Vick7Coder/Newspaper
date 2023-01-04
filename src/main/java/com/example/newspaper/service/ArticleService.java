@@ -1,7 +1,7 @@
 package com.example.newspaper.service;
 
-import com.ute.newsproject.beans.Articles;
-import com.ute.newsproject.utils.DbUtils;
+import com.example.newspaper.beans.Articles;
+import com.example.newspaper.utils.DbUtils;
 import org.sql2o.Connection;
 
 import java.util.List;

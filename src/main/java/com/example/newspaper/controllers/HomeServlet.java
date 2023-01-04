@@ -1,7 +1,6 @@
 package com.example.newspaper.controllers;
 
-import com.ute.newsproject.utils.ServletUtils;
-import com.ute.newsproject.utils.ServletUtils;
+import com.example.newspaper.utils.ServletUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
